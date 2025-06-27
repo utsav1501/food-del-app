@@ -55,7 +55,7 @@ export const LoginPopUp = ({setShowLogin}) => {
                 <input name='email' onChange={onChangeHandler} value={data.email} type='email' placeholder='Your email' required autoComplete="off"/>
                 <input name='password' onChange={onChangeHandler} value={data.password} type='password' placeholder='Passsword' required autoComplete="new-password" />
             </div>
-            <button type='submit'>{currState==="sign Up"?"Create account":"Login"}</button>
+            <button type='submit'>{currState==="Sign Up"?"Create account":"Login"}</button>
             <div className='login-popup-condition'>
                 <input type='checkbox' required/>
                 <p>By continuing, i agree to the terms of use and privacy policy</p>
